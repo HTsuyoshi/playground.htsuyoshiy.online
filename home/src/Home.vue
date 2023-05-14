@@ -27,6 +27,9 @@
 	color: #eeeeee;
 	background-color: #222222;
 }
+h1 {
+	text-align: center;
+}
 ul {
 	list-style: none;
 }
