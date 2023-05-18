@@ -10,6 +10,9 @@
 			<li>
 				<a href='/canvas' target='_blank'>Pure canvas projects</a>
 			</li>
+			<li>
+				<a href='/flashcards' target='_blank'>Flashcards</a>
+			</li>
 		</ul>
 	</div>
 </template>
