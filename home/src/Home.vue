@@ -71,7 +71,7 @@
 					<font-awesome-icon :icon="['fab', 'github']" />
 					Github
 				</a>
-				<a href='https://github.com/HTsuyoshi'>
+				<a href='https://doombringerazurai.itch.io'>
 					<font-awesome-icon :icon="['fab', 'itch-io']" />
 					Itch.io
 				</a>
