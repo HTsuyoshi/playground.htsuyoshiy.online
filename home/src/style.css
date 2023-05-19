@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'Fira code';
+	src: url("FiraCode-Regular.woff2") format('woff2');
+}
 :root {
 	--background-color-master: #191919;
 	--background-color-child: #222;

@@ -20,7 +20,7 @@
 
 		const max_length = text.reduce((max, str) => {
 			return Math.max(max, str.length);
-		}, 0) + 10;
+		}, 0) + 6;
 
 		let title_text_formatted: string = chars.up_left + chars.horizontal.repeat(max_length) + chars.up_right + '\n';
 		for (let t of text) {
@@ -135,7 +135,7 @@ footer {
 	margin-bottom: 1em;
 }
 pre {
-	font-family: 'Consolas', monospace;
+	font-family: 'Fira code', monospace, Monaco;
 	line-height: 1.2;
 	margin: 0;
 }
