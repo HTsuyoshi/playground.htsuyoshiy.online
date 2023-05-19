@@ -66,6 +66,9 @@
 			</li>
 		</ul>
 		<footer>
+<pre>
+✦⋆ ──────── links ───────── ⋆✦
+</pre>
 			<div id='links'>
 				<a href='https://github.com/HTsuyoshi'>
 					<font-awesome-icon :icon="['fab', 'github']" />
