@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import './style.css'
+import '../style.css'
 import Home from './Home.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
