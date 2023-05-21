@@ -135,6 +135,7 @@ a {
 }
 footer {
 	margin-top: auto;
+	padding-top: 1em;
 	margin-bottom: 1em;
 }
 pre {
