@@ -1,6 +1,6 @@
 <template>
 	<div id='list'>
-<pre id='title' ref='title'>     ✦         ·    🌑 
+<pre id='title' ref='title'>     ✦         ·    ⬤ 
          ╱╲      .     
       · ╱  ╲           
   ·    ╱    ╲  ╱╲  .   
