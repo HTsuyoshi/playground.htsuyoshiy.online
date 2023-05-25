@@ -1,56 +1,15 @@
-<script setup lang='ts'>
-	import { Ref, ref, onMounted} from 'vue'
-
-	function format(text: string[]): string {
-		const chars: {
-			horizontal: string;
-			vertical: string;
-			up_left: string;
-			up_right: string;
-			down_left: string;
-			down_right: string;
-		} = {
-			horizontal: '\u2500',
-			vertical: '\u2502',
-			up_left: '\u250C',
-			up_right: '\u2510',
-			down_left: '\u2514',
-			down_right: '\u2518'
-		};
-
-		const max_length = text.reduce((max, str) => {
-			return Math.max(max, str.length);
-		}, 0) + 6;
-
-		let title_text_formatted: string = chars.up_left + chars.horizontal.repeat(max_length) + chars.up_right + '\n';
-		for (let t of text) {
-			title_text_formatted += chars.vertical + ' '.repeat((max_length - t.length) & 1) + ' '.repeat((max_length - t.length)/2) + t + ' '.repeat((max_length - t.length)/2) + chars.vertical + '\n';
-		}
-		title_text_formatted += chars.down_left + chars.horizontal.repeat(max_length) + chars.down_right + '\n';
-
-		return title_text_formatted;
-	}
-
-	const title: Ref<HTMLElement | null> = ref(null);
-	const title_text = format(['', 'Welcome to my', 'Playground', '']);
-
-	onMounted(() => {
-		if (title.value) title.value.innerText = title_text;
-	});
-</script>
-
 <template>
 	<div id='list'>
-<pre id='title' ref='title'>┌───────────────────────┐
-│                       │
-│     Welcome to my     │
-│       Playground      │
-│                       │
-└───────────────────────┘
-</pre>
-<pre>
-✦⋆ ─────── Projects ─────── ⋆✦
-</pre>
+<pre id='title' ref='title'>     ✦         ·    🌑 
+         ╱╲      .     
+      · ╱  ╲           
+  ·    ╱    ╲  ╱╲  .   
+     Welcome to my     
+     ╱ Playground ╲    
+  ╱╲╱              ╲   
+ ╱      ▲ ╔═╗ ▲     ╲  
+──────────╨─╨──────────</pre>
+<pre>✦⋆ ─────── Projects ─────── ⋆✦</pre>
 		<ul>
 			<li>
 				<a href='/canvas'>Pure canvas projects</a>
@@ -97,9 +56,11 @@
 	box-shadow: #111 0px 0px 10px 10px;
 }
 #title {
-	padding-top: 3em;
-	padding-bottom: 2em;
+	padding-top: 2em;
+	padding-bottom: 1em;
 	font-size: 1.2em;
+	letter-spacing: -0.5px; /* Increase character spacing */
+	line-height: 1.2;
 }
 #links a {
 	display: block;
@@ -125,7 +86,7 @@ ul {
 	margin: 0;
 }
 li {
-	padding-top: 3em;
+	padding-top: 2em;
 	margin: 0;
 	font-size: 1em;
 }
@@ -140,7 +101,6 @@ footer {
 }
 pre {
 	font-family: 'Fira code', monospace, Monaco;
-	line-height: 1.2;
 	margin: 0;
 }
 </style>
