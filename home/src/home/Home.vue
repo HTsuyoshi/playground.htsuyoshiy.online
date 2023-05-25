@@ -9,7 +9,7 @@
   ╱╲╱              ╲   
  ╱      ▲ ╔═╗ ▲     ╲  
 ──────────╨─╨──────────</pre>
-<pre>✦⋆ ─────── Projects ─────── ⋆✦</pre>
+<pre>✦ ⋆ ─────── Projects ─────── ⋆ ✦</pre>
 		<ul>
 			<li>
 				<a href='/canvas'>Pure canvas projects</a>
@@ -26,7 +26,7 @@
 		</ul>
 		<footer>
 <pre>
-✦⋆ ──────── links ───────── ⋆✦
+✦ ⋆ ──────── links ───────── ⋆ ✦
 </pre>
 			<div id='links'>
 				<a href='https://github.com/HTsuyoshi'>
