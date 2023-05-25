@@ -100,7 +100,7 @@ footer {
 	margin-bottom: 1em;
 }
 pre {
-	font-family: 'Fira code', monospace, Monaco;
+	font-family: 'Fira code', monospace;
 	margin: 0;
 }
 </style>
