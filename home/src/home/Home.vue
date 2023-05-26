@@ -3,10 +3,10 @@
 <pre id='title' ref='title'>     ✦         ·    ⬤ 
          ╱╲      .     
       · ╱  ╲           
-  ·    ╱    ╲  ╱╲  .   
+  ·    ╱╲╱╲╱╲  ╱╲  .   
      Welcome to my     
-     ╱ Playground ╲    
-  ╱╲╱              ╲   
+   ╱╲╱ Playground ╲    
+  ╱                ╲   
  ╱      ▲ ╔═╗ ▲     ╲  
 ──────────╨─╨──────────</pre>
 <pre>✦ ⋆ ─────── Projects ─────── ⋆ ✦</pre>
