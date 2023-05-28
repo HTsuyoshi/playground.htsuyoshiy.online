@@ -14,13 +14,19 @@
 			<li>
 				<a href='/canvas'>Pure canvas projects</a>
 				<p class='description'>
-					Projects using the <code>&lt;canvas&gt;</code> element to simulate physics
+					Projects using the <code>&lt;canvas&gt;</code> element to simulate physics and algorithms
 				</p>
 			</li>
 			<li>
 				<a href='/flashcards'>Flashcards</a>
 				<p class='description'>
 					Simple web application game that consumes <a href='https://kanjiapi.dev/' target='_blank'>kanjiapi</a>
+				</p>
+			</li>
+			<li>
+				<a href='/lyrics'>Lyrics</a>
+				<p class='description'>
+					Cool effects to visualize music lyrics
 				</p>
 			</li>
 		</ul>
