@@ -12,19 +12,19 @@
 <pre>✦ ⋆ ─────── Projects ─────── ⋆ ✦</pre>
 		<ul>
 			<li>
-				<a href='/canvas'>Pure canvas projects</a>
+				<a href='https://canvas.playground.htsuyoshiy.online/'>Pure canvas projects</a>
 				<p class='description'>
 					Projects using the <code>&lt;canvas&gt;</code> element to simulate physics and algorithms
 				</p>
 			</li>
 			<li>
-				<a href='/flashcards'>Flashcards</a>
+				<a href='https://flashcards.playground.htsuyoshiy.online/'>Flashcards</a>
 				<p class='description'>
 					Simple web application game that consumes <a href='https://kanjiapi.dev/' target='_blank'>kanjiapi</a>
 				</p>
 			</li>
 			<li>
-				<a href='/lyrics'>Lyrics</a>
+				<a href='https://lyrics.playground.htsuyoshiy.online/'>Lyrics</a>
 				<p class='description'>
 					Cool effects to visualize music lyrics
 				</p>
@@ -51,7 +51,7 @@
 <style scoped>
 #list {
 	max-width: 600px;
-	min-height: 100vh;
+	min-height: 100svh;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
