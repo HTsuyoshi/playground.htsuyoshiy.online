@@ -51,7 +51,7 @@
 <style scoped>
 #list {
 	max-width: 600px;
-	min-height: 100vh;
+	min-height: 100svh;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
