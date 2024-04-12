@@ -13,7 +13,7 @@ export default defineConfig({
 		rollupOptions: {
 			input: {
 				home: 'index.html',
-				error: 'error.html'
+				error: '404.html'
 			}
 		}
 	}
